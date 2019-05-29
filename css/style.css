@@ -1,0 +1,35 @@
+.hero{
+    color: #fff;
+    position: relative;
+}
+.hero img {
+    width: 100%;
+}
+.hero .hero-cont{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hero .hero-cont img{
+    width: 10%;
+}
+.hero-cont .hero-foot{
+    background: #525252;
+}
+.content-row1{
+    position: relative;
+}
+.content-row1 .content-details{
+    position: absolute;
+    left: 6%;
+top: 10%;
+border: 1px solid #dadada;
+z-index: 9;
+background-color: #fff;
+padding: 3.5% 4% 3.5% 5%;
+font-size: 14px;
+}
+
+.content-row1 .content-media img{
+    width: 100%;
+}
